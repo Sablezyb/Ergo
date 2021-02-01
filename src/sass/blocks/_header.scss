@@ -1,0 +1,23 @@
+.header {
+    background-color: #456a7a;
+    .header__nav {
+        min-height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .header__link {
+            font-size: 25px;
+            color: white;
+            margin-right: 25px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+        .header__link:last-child {
+            margin-right: 0px;
+        }
+        .header__link:hover {
+            color: yellow;
+        }
+    }
+}
