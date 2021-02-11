@@ -1,0 +1,41 @@
+.partners {
+    position: relative;
+    min-height: 400px;
+    padding: 20px 0;
+    border-top: black solid 1px;
+    border-bottom: black solid 1px;
+    background-color: #edcd1f;
+    &__title {
+        text-align: center;
+        font-size: 32px;
+    }
+    &__slaider {
+        position: relative;
+    }
+    &__images {
+        margin: 0 auto;
+        margin-top: 15px;
+        display: flex;
+        overflow: hidden;
+        max-width: 900px;
+    }
+    &__img {
+        display: block;
+        margin: 0 15px 0 15px;
+        background-color: #fff;
+    }
+    &__btn_next, &__btn_prev {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 82px;
+    }
+    &__btn_next {
+        cursor: pointer;
+        right: 80px;
+    }
+    &__btn_prev {
+        cursor: pointer;
+        left: 80px;
+    }
+}
