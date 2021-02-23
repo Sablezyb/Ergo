@@ -1,0 +1,17 @@
+.footer {
+    min-height: 100px;
+    background-color: rgb(199, 192, 192);
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+    }
+    img {
+        width: 100px;
+        margin-right: 5px;
+    }
+    &__text {
+        font-weight: 700;
+    }
+}
