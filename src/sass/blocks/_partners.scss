@@ -2,41 +2,9 @@
     border-top: 1px solid #000;
     position: relative;
     padding: 0 60px 20px;
-    background-color: yellow;
+    background-color: rgb(204, 204, 33);
     &__title {
         font-size: 42px;
         text-align: center;
-    }
-    img {
-        margin: 0 10px;
-        background-color: #ffff;
-    }
-    .slick-prev:before {
-        position: absolute;
-        left: -30px;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 60px;
-        height: 60px;
-        display: block;
-        font-size: 40px;
-        color: white;
-        background-color: black;
-        border-radius: 50%;
-        line-height: 1.4;
-    }
-    .slick-next:before {
-        position: absolute;
-        right: -30px;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 60px;
-        height: 60px;
-        display: block;
-        font-size: 40px;
-        color: white;
-        background-color: black;
-        border-radius: 50%;
-        line-height: 1.4;
     }
 }
