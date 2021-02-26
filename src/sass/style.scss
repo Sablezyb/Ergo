@@ -1,8 +1,35 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+*{
+    font-family: Roboto;
+    font-weight: 300;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto; 
 }
 
+@import 'blocks/titles';
 @import 'blocks/header';
 @import 'blocks/promo';
 @import 'blocks/projects';
